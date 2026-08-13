@@ -67,3 +67,19 @@ replace_with_symlink \
 replace_with_symlink \
     "$AGENTS_DIR/skills/swiftui-performance-audit" \
     "$HOME/.codex/skills/swiftui-performance-audit"
+
+# Agents
+mkdir -p "$HOME/.agents"
+ensure_real_directory "$HOME/.agents/skills"
+
+replace_with_symlink \
+    "$AGENTS_DIR/AGENTS.md" \
+    "$HOME/.agents/AGENTS.md"
+
+replace_with_symlink \
+    "$AGENTS_DIR/skills/app-store-screenshots" \
+    "$HOME/.agents/skills/app-store-screenshots"
+
+replace_with_symlink \
+    "$AGENTS_DIR/skills/swiftui-performance-audit" \
+    "$HOME/.agents/skills/swiftui-performance-audit"
