@@ -49,6 +49,10 @@ replace_with_symlink \
     "$HOME/.claude/skills/app-store-screenshots"
 
 replace_with_symlink \
+    "$AGENTS_DIR/skills/app-store-4-3-solution" \
+    "$HOME/.claude/skills/app-store-4-3-solution"
+
+replace_with_symlink \
     "$AGENTS_DIR/skills/swiftui-performance-audit" \
     "$HOME/.claude/skills/swiftui-performance-audit"
 
@@ -65,6 +69,10 @@ replace_with_symlink \
     "$HOME/.codex/skills/app-store-screenshots"
 
 replace_with_symlink \
+    "$AGENTS_DIR/skills/app-store-4-3-solution" \
+    "$HOME/.codex/skills/app-store-4-3-solution"
+
+replace_with_symlink \
     "$AGENTS_DIR/skills/swiftui-performance-audit" \
     "$HOME/.codex/skills/swiftui-performance-audit"
 
@@ -79,6 +87,10 @@ replace_with_symlink \
 replace_with_symlink \
     "$AGENTS_DIR/skills/app-store-screenshots" \
     "$HOME/.agents/skills/app-store-screenshots"
+
+replace_with_symlink \
+    "$AGENTS_DIR/skills/app-store-4-3-solution" \
+    "$HOME/.agents/skills/app-store-4-3-solution"
 
 replace_with_symlink \
     "$AGENTS_DIR/skills/swiftui-performance-audit" \
