@@ -9,3 +9,4 @@
 ## 包管理
 
 1. 安装 node，使用 npm。未经过允许禁止使用 pnpm、Bun 等其他包管理工具。
+2. 禁止安装 clickclick。
